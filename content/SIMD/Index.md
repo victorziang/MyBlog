@@ -187,4 +187,4 @@ __m128i bitwiseNot(__m128i x) {
 `_mm_hadd_ps`接受两个寄存器 `[a, b, c, d]` 和 `[e, f, g, h]` 返回 `[a+b, c+d, e+f, g+h]`
 `_mm_addsub_ps` 接受两个寄存器 `[a, b, c, d]` 和 `[e, f, g, h]` 返回 `[a-e, b+f, c-g, d+h]``_mm_addsub_pd` 对双精度通道做类似操作。适用于复数乘法等。
 
-[https://stackoverflow.com/questions/16988199/how-to-choose-avx-compare-predicate-variants/64191351#64191351]
+[https://stackoverflow.com/questions/16988199/how-to-choose-avx-compare-predicate-variants/64191351#64191351](How to choose avx compare predicate variants)
