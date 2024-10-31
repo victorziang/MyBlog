@@ -182,3 +182,9 @@ __m128i bitwiseNot(__m128i x) {
 }
 
 ```
+`_mm_min_ss`  `_mm_max_ss`  /`_mm_min_sd`  `_mm_max_sd` 单/双精度浮点数最小最大值
+`_mm_rcp_ps` /`_mm_rsqrt_ps`    计算单精度浮点数的倒数/平方根的倒数。
+`_mm_hadd_ps`接受两个寄存器 `[a, b, c, d]` 和 `[e, f, g, h]` 返回 `[a+b, c+d, e+f, g+h]`
+`_mm_addsub_ps` 接受两个寄存器 `[a, b, c, d]` 和 `[e, f, g, h]` 返回 `[a-e, b+f, c-g, d+h]``_mm_addsub_pd` 对双精度通道做类似操作。适用于复数乘法等。
+
+[https://stackoverflow.com/questions/16988199/how-to-choose-avx-compare-predicate-variants/64191351#64191351]
